@@ -1,14 +1,25 @@
-// PUSAT DATA UTAMA (Edit nilai di sini jika ada perubahan)
+// PUSAT DATA UTAMA 
 const dataKelompok = [
     { nama: "Muadz Jahir, Ridho Ariyanto, Rizki Ditiratu, Ewis Jola /INFO-1", laporan: 95, website: 90, presentasi: 88, kekompakan: 90 },
     { nama: "Zelda, Intan, M Zulkarnain, Febriansya / INFO-1", laporan: 85, website: 95, presentasi: 81, kekompakan: 82 },
     { nama: "Afrizal Nurman, Mazwa, M Fauzan, Farid/ INFO-1", laporan: 80, website: 80, presentasi: 60, kekompakan: 61 },
     { nama: "Mayang, Febrian, Eko Prasetya, Nulania/ INFO-1", laporan: 80, website: 75, presentasi: 60, kekompakan: 50 },
     { nama: "Irfan Ikbal, Selfi Kaliadi, Fadhil, Mukadim/ INFO-1", laporan: 90, website: 81, presentasi: 80, kekompakan: 81 },
+    { nama: "Tryandi, Wa Nita, Galangm Fajril/ INFO-1", laporan: 75, website: 92, presentasi: 90, kekompakan: 81 },
     { nama: "Adnan / INFO-1", laporan: 70, website: 90, presentasi: 80, kekompakan: 0 },
     { nama: "Ariyandi Abdullah, M.Asyik, M.Fajar, Zicry, Abdullah", laporan: 55, website: 70, presentasi: 70, kekompakan: 75 },
     { nama: "Fatrin, Maya, riris", laporan: 55, website: 79, presentasi: 60, kekompakan: 80 },
     { nama: "Ibnu Khaldun, Algea, Yusmad, Rey / INFO-3", laporan: 65, website: 80, presentasi: 67, kekompakan: 70 },
+    { nama: "Irfan, Devi, Arjun, Ratna / INFO-3", laporan: 85, website: 89, presentasi: 80, kekompakan: 80 },
+    { nama: "Safatmi, Arrayhan, Mulyadi, Adjiansyah/ INFO-3", laporan: 70, website: 67, presentasi: 60, kekompakan: 60 },
+    { nama: "A.Aldy, Aldawia, Nuryanti, Junitof/ INFO-3", laporan: 70, website: 70, presentasi: 80, kekompakan: 79 },
+    { nama: "Alfalibi,Arfat,Nabil,Irmansyah/ INFO-3", laporan: 80, website: 80, presentasi: 75, kekompakan: 76 },
+    { nama: "Aprilia, Nurbaiti, Sartia, Tiwi/ INFO-4", laporan: 80, website: 69, presentasi: 70, kekompakan: 70 },
+    { nama: "Nurhaliza, Gerald, Afif, Difandri/ INFO-4", laporan: 80, website: 80, presentasi: 75, kekompakan: 70 },
+    { nama: "Debi, Safitri, riska, sofia/ INFO-4", laporan: 70, website: 70, presentasi: 69, kekompakan: 69 },
+    { nama: "Marco, Fikri, Sahdila, Rizka, Ahmad/ INFO-4", laporan: 99, website: 97, presentasi: 89, kekompakan: 90 },
+    { nama: "Nazwa, Nurafni, Jihanm Gita/ INFO-4", laporan: 80, website: 78, presentasi: 80, kekompakan: 80 },
+    
 ];
 
 const dataIndividu = [
@@ -32,17 +43,64 @@ const dataIndividu = [
     { nama: "Selfi Kaliadi", kelompok: "Info 1", presentasi: 81, database: 70, kode: 75 },
     { nama: "Fadhil", kelompok: "Info 1", presentasi: 70, database: 60, kode: 60 },
     { nama: "Mukadim Rizal", kelompok: "Info 1", presentasi: 49, database: 45, kode: 45 },
+    { nama: "Tryandi", kelompok: "Info 1", presentasi: 80, database: 60, kode: 60 },
+    { nama: "Wa Nita", kelompok: "Info 1", presentasi: 80, database: 75, kode: 66 },
+    { nama: "Galang", kelompok: "Info 1", presentasi: 80, database: 80, kode: 70 },
+    { nama: "Fajril", kelompok: "Info 1", presentasi: 77, database: 60, kode: 55 },
     { nama: "Fatrin", kelompok: "Info 2", presentasi: 75, database: 50, kode: 50 },
     { nama: "Maya", kelompok: "Info 2", presentasi: 75, database: 55, kode: 55 },
     { nama: "Riris", kelompok: "Info 2", presentasi: 75, database: 50, kode: 50 },
     { nama: "Nazla", kelompok: "Info 2", presentasi: 70, database: 45, kode: 45 },
     { nama: "Ariyandi", kelompok: "Info 2", presentasi: 75, database: 50, kode: 50 },
     { nama: "M Asyik", kelompok: "Info 2", presentasi: 70, database: 50, kode: 45 },
-    { nama: "M Fajar", kelompok: "Info 2", presentasi: 75, database: 65, kode: 75 },
+    { nama: "M Fajar", kelompok: "Info 2", presentasi: 75, database: 65, kode: 77 },
     { nama: "Ibnu Khaldun", kelompok: "Info 3", presentasi: 70, database: 45, kode: 45 },
     { nama: "Algea Faris", kelompok: "Info 3", presentasi: 70, database: 65, kode: 60 },
     { nama: "Yusmad", kelompok: "Info 3", presentasi: 60, database: 45, kode: 45 },
-    { nama: "Rey", kelompok: "Info 3", presentasi: 50, database: 45, kode: 45 },
+    { nama: "Rendi Irfan", kelompok: "Info 3", presentasi: 70, database: 80, kode: 89 },
+    { nama: "Devi", kelompok: "Info 3", presentasi: 70, database: 76, kode: 70 },
+    { nama: "Arjun", kelompok: "Info 3", presentasi: 72, database: 77, kode: 80 },
+    { nama: "Ratna", kelompok: "Info 3", presentasi: 70, database: 75, kode: 75 },
+    { nama: "Safatmi", kelompok: "Info 3", presentasi: 69, database: 60, kode: 50 },
+    { nama: "arrayhan", kelompok: "Info 3", presentasi: 70, database: 55, kode: 55 },
+    { nama: "Mulyadi", kelompok: "Info 3", presentasi: 60, database: 60, kode: 50 },
+    { nama: "Adjiansyah", kelompok: "Info 3", presentasi: 40, database: 40, kode: 40 },
+    { nama: "M Aldy", kelompok: "Info 3", presentasi: 80, database: 80, kode: 78 },
+    { nama: "Al Adawia", kelompok: "Info 3", presentasi: 80, database: 80, kode: 80 },
+    { nama: "Nuryanti", kelompok: "Info 3", presentasi: 70, database: 55, kode: 55 },
+    { nama: "Junitof", kelompok: "Info 3", presentasi: 70, database: 55, kode: 55 },
+    { nama: "Alfalibi", kelompok: "Info 3", presentasi: 80, database: 70, kode: 70 },
+    { nama: "Arfat", kelompok: "Info 3", presentasi: 60, database: 35, kode: 35 },
+    { nama: "Nabil", kelompok: "Info 3", presentasi: 80, database: 70, kode: 70 },
+    { nama: "Irmansyah", kelompok: "Info 3", presentasi: 60, database: 35, kode: 35 },
+    { nama: "Aprilia", kelompok: "Info 4", presentasi: 78, database: 60, kode: 60 },
+    { nama: "Nurbaytika", kelompok: "Info 4", presentasi: 76, database: 50, kode: 50 },
+    { nama: "Sartia", kelompok: "Info 4", presentasi: 78, database: 50, kode: 50 },
+    { nama: "Tiwi", kelompok: "Info 4", presentasi: 50, database: 50, kode: 50 },
+    { nama: "Nurhaliza", kelompok: "Info 4", presentasi: 78, database: 55, kode: 55 },
+    { nama: "Gerald", kelompok: "Info 4", presentasi: 79, database: 50, kode: 65 },
+    { nama: "Afif", kelompok: "Info 4", presentasi: 79, database: 65, kode: 70 },
+    { nama: "Diafanri", kelompok: "Info 4", presentasi: 59, database: 45, kode: 35 },
+    { nama: "Deby Ahsan", kelompok: "Info 4", presentasi: 59, database: 45, kode: 45 },
+    { nama: "Safitri", kelompok: "Info 4", presentasi: 59, database: 45, kode: 45 },
+    { nama: "Riska", kelompok: "Info 4", presentasi: 59, database: 45, kode: 45 },
+    { nama: "Sofia", kelompok: "Info 4", presentasi: 67, database: 50, kode: 50 },
+    { nama: "marco", kelompok: "Info 4", presentasi: 90, database: 85, kode: 85 },
+    { nama: "M Fikri P", kelompok: "Info 4", presentasi: 99, database: 95, kode: 90 },
+    { nama: "Sahdila", kelompok: "Info 4", presentasi: 85, database: 80, kode: 80 },
+    { nama: "Rizka N", kelompok: "Info 4", presentasi: 75, database: 65, kode: 65 },
+    { nama: "Ahmad Alaloul", kelompok: "Info 4", presentasi: 80, database: 75, kode: 79 },
+    { nama: "Nazwa R", kelompok: "Info 4", presentasi: 75, database: 60, kode: 65 },
+    { nama: "Nurafni", kelompok: "Info 4", presentasi: 80, database: 90, kode: 70 },
+    { nama: "JIhan", kelompok: "Info 4", presentasi: 82, database: 81, kode: 69 },
+    { nama: "Gita", kelompok: "Info 4", presentasi: 71, database: 58, kode: 50 },
+    
+    
+    
+    
+    
+    
+    
 
 
 
